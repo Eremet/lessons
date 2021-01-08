@@ -1,0 +1,471 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+header .vio{
+    background-color: #65256F;
+    justify-content: space-around;
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+.one{
+    justify-content: space-around;
+    display: flex;
+}
+.white{
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;  
+}
+.orange{
+    color: #FFB700;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+.conus{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav a{
+    text-decoration: none;
+    color: #2A2828;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+.nav>a{
+    list-style-type: none;
+}
+.nav a:hover{
+    background-color: #65256F;
+    color: #fff;
+    width: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+/*Картинка Таймс Сквер*/
+.newyork{
+    width: 100%;
+    height: 100%;
+    /*position: relative;
+    padding: auto;
+    background: url('../images/timessquare.jpg');*/
+}
+.newyork .artny{
+    background-size: 100%;
+    width: 1440px;
+    height: 768px;
+    /*opacity:80;
+    -moz-opacity:80;
+    filter: alpha(opacity=8000) black;
+    -khtml-opacity: 80;
+    background-color:#000;
+    opacity: 0.8;*/
+    background: url(../images/ny.png) no-repeat center center / cover;
+}
+.newyork .all{
+    margin: auto;
+    /*position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url('images/timessquare.jpg');
+    opacity: .4;
+    content: "";
+    z-index: -1;*/
+}
+.newyork div{
+    background: rgba(0, 0, 0, 0.65);
+    padding: 0;
+}
+.newyork .all .reklama{
+    font-size: 70px;
+    line-height: 77px;
+    color: #FFFFFF;
+    top: 20%;
+    position: absolute;
+    padding-left: 10%;
+}
+.newyork .all .reklama1{
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    padding-left: 10%;
+}
+.newyork .all .smallrec{
+    position: absolute;
+    top: 52%;
+    width: 100px;
+    left: 10%;
+}
+.newyork .all .yellorec{
+    width: 400px;
+    height: 80px;
+    color: #FFC957;
+    top: 68%;
+    left: 10%;
+    position: absolute;
+}
+.newyork .all .otzyv{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 21px;
+    top: 68%;
+    left: 18%;
+    color: #000;
+}
+.newyork .all .whats{
+    top: 40%;
+    left: 85%;
+    position: absolute;
+}
+.newyork .all .insta{
+    top: 51%;
+    left: 85%;
+    position: absolute;
+}
+.newyork .all .face{
+    top: 62.5%;
+    left: 85%;
+    position: absolute;
+}
+
+
+
+/*Наши услуги*/
+.ourservice{
+    padding-bottom: 5%;
+}
+.inourservice{
+    justify-content: space-around;
+    display: flex;
+}
+.ourservice .ourtext{
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    text-align: center;
+}
+.textA{
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+.textB{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #5E5E5E;
+}
+.number1{
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #753ED6;
+}
+.three{
+    justify-content: space-around;
+    display: flex;
+}
+.three p{
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+
+
+/*Наши работы*/
+.ourworks{
+    position: relative;
+}
+.ourwork{
+    text-align: center;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+.three2{
+    padding-bottom: 6%;
+}
+.text1{
+    top: 40%;
+    left: 3%;
+    position: absolute;
+}
+.text2{
+    top: 37%;
+    left: 3%;
+    position: absolute;
+}
+.text3{
+    position: absolute;
+    top: 40%;
+    left: 36.5%;
+}
+.text4{
+    position: absolute;
+    top: 40%;
+    left: 69.5%;
+}
+.text5{
+    position: absolute;
+    top: 83%;
+    left: 3%;
+}
+.text6{
+    position: absolute;
+    top: 83%;
+    left: 36.5%;
+}
+.text7{
+    position: absolute;
+    top: 83%;
+    left: 69.5%;
+}
+.textallworks{
+    display: flex;
+    justify-content: space-around;
+}
+.textallworks p{
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 21px;
+    background: rgba(101, 37, 111, 1);
+    padding-left: 134px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 134px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+/*Производство*/
+.prod{
+    padding-bottom: 5%;
+}
+.product{
+    justify-content: space-around;
+    display: flex;
+}
+.product .imgage{
+    width: 368px;
+    height: 300px;
+}
+.prod p{
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+}
+
+
+
+/*Наш прайс*/
+.foreimages{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.price{
+    text-align: center;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+.fasad{
+    font-size: 16px;
+    line-height: 150%;
+    color: #5A5858;
+}
+.som{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4C1F8C;
+}
+.textviorec{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    background: #65256F;
+    color: #FFFFFF;
+    padding-left: 122px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 122px;
+}
+.viorecfirst{
+    justify-content: center;
+    display: flex;
+}
+
+
+
+/*Наши клиенты*/
+.clients{
+    padding-left: 5%;
+}
+.clients .nike{
+    justify-content: space-around;
+    display: flex;
+    padding-left: 40%;
+}
+.clients .nike{
+    width: 130px;
+    height: 130px;
+}
+.clients p{
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    padding-left: 35%;
+}
+
+
+
+
+/*Наша команда*/
+.ourcom{
+    padding: 5%;
+}
+.ourteam{
+    text-align: center;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+.ourcom .threeimages{
+    display: flex;
+    justify-content: space-around;
+}
+.julia .juliasname{
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+.juliasstep{
+    font-size: 24px;
+    line-height: 28px;
+    color: #6F6C6C;
+}
+.annasname{
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+.anna .annasstep{
+    font-size: 24px;
+    line-height: 28px;
+    color: #6F6C6C;
+}
+.andrsname{
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+.andrsstep{
+    font-size: 24px;
+    line-height: 28px;
+    color: #6F6C6C;
+
+}
+.threeimages{
+    display: flex;
+    justify-content: space-around;
+}
+.free{
+    text-align: center;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 38px;
+    color: #343434;
+}
+.workwith{
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    color: #585858;
+}
+.inthreerecs{
+    display: flex;
+    justify-content: space-around;
+}
+.viorec{
+    width: 315px;
+    height: 47px;
+    background: rgba(101, 37, 111, 1);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.greyrec{
+    width: 315px;
+    height: 47px;
+    background: #ECE8E8;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.text{
+    font-size: 18px;
+    line-height: 21px;
+    color: #737272;
+}
+.textvio{
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+}
+
+
+/*Футер*/
+footer{
+    background-color: #3A3A3A;
+}
+footer .last{
+    color: #fff;
+    width: 80%;
+    justify-content: space-around;
+    display: flex;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.last .abc{
+    font-weight: 100;
+    font-size: 19px;
+    line-height: 19px;
+}
+.last .def{
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 21px;
+    color: #BCBBBB;
+}

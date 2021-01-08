@@ -1,0 +1,15 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.root{
+    color: green;
+    font-size: 65px;
+    transition: 3s;
+}
+.red{
+    background: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}

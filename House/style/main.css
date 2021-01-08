@@ -1,0 +1,113 @@
+.html,body{
+    margin: 0;
+    padding: 0;
+}
+.square{
+    width: 300px;
+	height: 200px;
+    background: orangered;
+    top: 50%;
+    left: 40%;
+    position: absolute;
+    animation-name: square;
+    animation-duration: 5s;
+}
+.triangle{
+    width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+    border-bottom: 100px solid blue;
+    position: absolute;
+    top: 38%;
+    left: 37%;
+    animation-name: triangle;
+    animation-duration: 5s;
+}
+.circle{
+    width: 60px;
+	height: 60px;
+	background: rgb(169, 177, 179);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 42%;
+    left: 47.3%;
+    animation-name: circle;
+    animation-duration: 5s;
+}
+.window{
+    width: 100px;
+	height: 100px;
+    background: rgb(0, 225, 255);
+    top: 55%;
+    left: 46%;
+    position: absolute;
+    z-index: 2;
+    animation-name: window;
+    animation-duration: 5s;
+}
+.smoke{
+    width: 30px;
+	height: 80px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    z-index: -2;
+    animation-name: smoke;
+    animation-duration: 5s;
+}
+
+@keyframes square{
+    from{
+        top: 50%;
+        left: 60%;
+    }
+    to{
+        top: 50%;
+        left: 40%;
+    }
+}
+@keyframes triangle{
+    from{
+        top: 40%;
+        left: 80%;
+    }
+    to{
+        top: 38%;
+        left: 37%;
+        }
+}
+@keyframes circle{
+    from{
+        top: 80%;
+        left: 10%;
+    }
+    to{
+        top: 42%;
+        left: 47.3%;
+        }
+}
+
+@keyframes smoke{
+    from{
+        top: 70%;
+        left: 20%;
+    }
+    to{
+        top: 40%;
+        left: 42%;
+        }
+}
+@keyframes window{
+    from{
+        top: 80%;
+        left: 30%;
+    }
+    to{
+        top: 55%;
+        left: 46%;
+        }
+}

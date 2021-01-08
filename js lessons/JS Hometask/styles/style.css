@@ -1,0 +1,99 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.addword{
+    width: 50%;
+    margin: auto;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.addword input, .addword button{
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+.addword button{
+    border: 1px solid black !important;
+    width: 20%;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 25px;
+}
+.addword button:hover{
+    background-color: black;
+    color: white;
+    opacity: .9;
+}
+.testButton{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3%;
+    border: 1px solid black !important;
+    cursor: pointer;
+    font-size: 24px;
+    transition: .3s;
+    border-radius: 25px;
+    height: 30px;
+}
+.testButton:hover{
+    background-color: black;
+    color: white;
+    opacity: .9;
+}
+#testModel{
+    width: 70%;
+    margin-left: 15%;
+    z-index: 2;
+    box-shadow: 25px 25px 35px #000000;
+    height: 450px;
+    border: 1px solid rgb(189, 187, 187);
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+#testModel input {
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    height: 30px;
+    margin-top: 20%;
+}
+#testModel button{
+    border: 1px solid black !important;
+    width: 20%;
+    height: 30px;
+    margin-top: 20%;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 25px;
+}
+#testModel button:hover{
+    background-color: black;
+    color: white;
+    opacity: .9;
+
+}
+#testModel h3{
+    margin-top: 20%;
+    font-size: 26px;
+}
+#testModel p{
+    margin-top: 400px;
+    font-size: 24px
+}
+.closeModel{
+    font-size: 50px !important;
+    font-weight: bold;
+    transform: rotate(45deg);
+    color: red;
+    position: absolute;
+    cursor: pointer;
+    top: -21%;
+    left: 83%;
+}

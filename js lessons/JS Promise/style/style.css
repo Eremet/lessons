@@ -1,0 +1,40 @@
+html, body{
+    background-color:rgb(238, 255, 0);
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+#output{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+.el {
+    flex: 0 1 33.333%;
+}
+header{
+    background-color: black;
+    margin-top: 0;
+}
+.search{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 80%;
+}
+.btn{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+.search p{
+    font-size: 30px;
+    margin: 0;
+}
+.search #a{
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+}

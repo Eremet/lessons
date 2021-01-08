@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Record</title>
+</head>
+<body>
+    <p>Скажи например YouTube.com</p>
+    <button onclick="speech()">Прослушать</button>
+    <button onclick="talk()">Проговорить</button>
+    
+    <script>
+        // распознователь
+        let recognizer = new webkitSpeechRecognition()
+        let name = ""
+        //втсавка опции для того чтоб распознование началось до того момента пока не закончил пользователь
+        recognizer.interimResult = true
+        //опция настройки языка
+        recognizer.lang = 'en-En'
+        //функция для обработки результата
+        recognizer.onresult = (event) =>{
+            let result = event.results[event.resultIndex]
+            if(result.isFinal){
+                alert('вы сказали: '+ result[0].transcript)
+                name = result[0].transcript
+                window.location.href='http://' +name
+            }else{
+                console.log("Промежуточный результат: ",result[0].transcript)
+            }
+        }
+
+        speech=()=>{
+            recognizer.start()
+        }
+        
+        talk=()=>{
+            let synth = window.speechSynthesis
+            let utterance = new SpeechSynthesisUtterance(name)
+            synth.speak(utterance)
+        }
+        
+    </script>
+</body>
+</html>

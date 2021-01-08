@@ -1,0 +1,49 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+button{
+    width: 30px;
+    height: 60px;
+}
+#card{
+    background-color: yellow;
+    width: 340px;
+    height: 560px;
+    margin: auto;
+    margin-top: 6%;
+    border: 10px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+#card img{
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+#card .text1{
+    font-size: 40px;
+    margin-left: 10%;
+    margin-top: -3%;
+}
+#card .text2{
+    font-size: 40px;
+    margin-left: 10%;
+    margin-top: -15%;
+}
+#text p{
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#text{
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: #ffff;
+    width: 300px;
+    height: 200px;
+    margin-top: -5%;
+    margin-left: 4%;
+}

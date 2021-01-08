@@ -1,0 +1,79 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+}
+header .logo{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+header .logo img{
+    width: 150px;
+    margin-top: 5%;
+}
+header .logo h3{
+    margin-top: 10%;
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: normal;
+    color: #0088A2;
+}
+
+.nav{
+    width: 100%;
+    margin-top: 4%;
+    display: flex;
+    padding-left: 0;
+    margin-left: 0;
+    justify-content: space-around;
+    background-color: #808080;
+}
+.nav li{
+    list-style-type: none;
+    width: 100%;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    width: 20%;
+    text-align: center;
+    font-size: 26px;
+    line-height: 57px;
+}
+.nav a:hover{
+    background-color: #0088A2;;
+}
+
+.cards{
+    width: 94%;
+    margin: auto;
+    display: flex;
+    margin-top: 4% ;
+    justify-content: space-around;
+}
+.cards .card{
+    width: 28%;
+    position: relative;
+    cursor: pointer;
+}
+.cards .card img{
+    width: 100%;
+}
+.cards .card p{
+    width: 80%;
+    position: absolute;
+    top:20%;
+    left: 10%;
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}

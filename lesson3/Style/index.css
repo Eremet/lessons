@@ -1,0 +1,113 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#FFFF;
+}
+#first{
+    background-color:red;
+}
+#second{
+    background-color: green;
+    top: 60%;
+    
+}
+#third{
+    background-color:yellow;
+    top: 30%;
+}
+.cube{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.cube2{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+#first2{
+    background-color: red;
+    left: 20%;
+    top: 25%;
+    transform: rotate(45deg); 
+}
+#second2{
+    background-color: green;
+    left: 26.5%;
+    top: 38.5%;
+    transform: rotate(45deg);
+}
+#third2{
+    background-color: yellow;
+    top: 25%;
+    left: 33%;
+    transform: rotate(45deg);
+}
+.cube3{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+#first3{
+    background-color: red;
+    left: 50%;
+    top: 25%;
+    transform: rotate(45deg); 
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+}
+#second3{
+    background-color: red;
+    left: 56.5%;
+    top: 38.5%;
+    transform: rotate(45deg);
+}
+#third3{
+    background-color: red;
+    left: 63.1%;
+    top: 24.7%;
+    transform: rotate(45deg);
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%; 
+}
+.cube4{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+#first4{
+    background-color: red;
+    left: 30.15%;
+    top: 65%;
+    transform: rotate(45deg); 
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+}
+#second4{
+    background-color: red;
+    left: 36.5%;
+    top: 78.5%;
+    transform: rotate(45deg);
+}
+#third4{
+    background-color: red;
+    left: 43%;
+    top: 64.7%;
+    transform: rotate(45deg);
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%; 
+}
+h1{
+    position: absolute;
+    z-index: 2;
+    left: 36%;
+    top: 75%;
+    font-size: 48px;
+    color: #ffff;
+    text-shadow: 15px 10px 15px grey;
+}
+
+    
